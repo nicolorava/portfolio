@@ -81,7 +81,7 @@ const fragment = `
   const img = new Image();
   img.onload = () => (texture.image = img);
   img.crossOrigin = "Anonymous";
-  img.src = "/images/nuvole.png";
+  img.src = "./images/nuvole.png";
 
   let a1, a2;
   var imageAspect = imgSize[1] / imgSize[0];
